@@ -2,11 +2,11 @@ import mysql.connector
 from mysql.connector import Error
 
 DB_CONFIG = {
-    "host": "maglev.proxy.rlwy.net",
-    "port": 50049,
-    "user": "root",
-    "password": "RMjcOQGoSktiNYXPusuQAALwUomNoEls",
-    "database": "railway"
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": "",
+    "database": ""
 }
 
 

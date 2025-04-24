@@ -3,7 +3,7 @@ from fastapi import APIRouter, HTTPException
 
 from auth import generate_token
 from database import get_connection
-from schemas.user_schema import LoginRequest, UserCreate
+from schemas.auth_schema import LoginRequest, UserCreate
 from utils.functions import *
 
 router = APIRouter()

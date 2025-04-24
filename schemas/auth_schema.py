@@ -1,9 +1,6 @@
 from pydantic import BaseConfig, BaseModel
 
 
-BaseConfig.arbitrary_types_allowed = True
-
-
 class UserCreate(BaseModel):
     name: str
     email: str
